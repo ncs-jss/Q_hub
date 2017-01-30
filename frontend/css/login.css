@@ -6,32 +6,12 @@ body{
         background-size:100% 100%;
         background-attachment: fixed;
 
-<<<<<<< HEAD
 }
 .form{
-=======
-.login-form {
-  margin-top:8%;
-}
-.login-form form{
->>>>>>> 75443f55eae66de7754c654ed03b2615ae0017bf
   text-align: center;
-  display: flex;
-  justify-content: center;
-  width: 80%;
-  margin: 0 auto;
 }
-<<<<<<< HEAD
 span{
 	padding:30px;
-=======
-
-input[type=text], input[type=password] {
-  padding: 0px;
-  height: 50px;
-  padding-left: 10px;
-  margin-right: 12px;
->>>>>>> 75443f55eae66de7754c654ed03b2615ae0017bf
 }
 div.sub{
     padding:20px;
