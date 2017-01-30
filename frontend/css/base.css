@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav {
     height:80px;
-    color: white;
+    color: #D9F9F4;
     text-align: center;
-    background-color:#000040;
+    background-color: #55B3F3;
     clear: left;
 }
 
@@ -24,14 +24,16 @@ h2 {
 nav ul {
     list-style: none;
     float:right;
-}
+    }
 
 nav li{
-    margin-right: 5px;
+   margin-right: 5px;
     display:inline;
 }
 
 nav li a {
+    color:#D9F9F4;
+
   text-decoration: none;
 }
 
@@ -47,8 +49,8 @@ nav li a {
     font-size :20px;
     float:right;
     display:inline;
+    color:#D9F9F4;
 }
-
 .process{
     padding:10px 100px 5px 100px;
     margin: 0 auto;
@@ -66,8 +68,8 @@ input[type=text],select, input[type=password],select, input[type=submit],select 
 }
 
 footer {
-    color: white;
-    background-color: #000040;
+    color: #233B6E;
+    background-color: #55B3F3;
     position:absolute;
     bottom:0;
     width:100%;

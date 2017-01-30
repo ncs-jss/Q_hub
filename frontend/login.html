@@ -2,9 +2,12 @@
 <html lang="en-US">
 <head>
 	<title> Login </title>
-	<link rel="stylesheet" type="text/css" href="css/login.css">
 	<link rel="stylesheet" type="text/css" href="css/w3.css">
 	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 		<header>
@@ -20,22 +23,55 @@
 				</ul>
 			</nav>
 		</header>
-		<div class="process">
-				<h2><b>Login</b></h2>
-				<div class="form">
-						<form action="step_1.html" method="GET">
-						     <input type="text" name="fname" placeholder="Username"><br>
-						  	<input type="Password" name="pword" placeholder="Password"><br>
-						  	<div class="sub">
-						  	<input type="checkbox" name="check">Remember Me<br>
-						  	<input type="submit" value="Submit">
-						  	</div>
+		<div class="container">
+  <div class"butn">
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click to Login</button>
+</div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2><b>Sign In  </b></h2>
+        </div>
+        <div class="login-form form">
+				<form action="#" method="GET">
+				    <input type="text" name="fname" placeholder="Username"><br>
+				  	<input type="Password" name="pword" placeholder="Password"><br>
+						<input type="submit" value="Submit"><br>
 						</form>
-				</div>
 		</div>
+
+       
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+	<!--	<div class="process">
+		</div>
+		<div class="login-form form">
+			<h2><b>Sign In  </b></h2>
+				<form action="#" method="GET">
+				    <input type="text" name="fname" placeholder="Username"><br>
+				  	<input type="Password" name="pword" placeholder="Password"><br>
+						<input type="submit" value="Submit">
+
+				  	<!-- <div class="sub">
+				  	<input type="checkbox" name="check">Remember Me<br>
+				  	<input type="submit" value="Submit">
+				  	</div> -->
+				
+
 
 		<footer>
 				<p> &copy;Nibble Computer Society</p>
 		</footer>
+
 </body>
 </html>

@@ -1,9 +1,26 @@
+body{
+	background-color: #F6F6F6;
+	background-image: url('../assets/SA final2.jpg');
+	background-repeat: no-repeat;
+        background-position:center center;
+        background-size:100% 100%;
+        background-attachment: fixed;
 
+}
 .form{
   text-align: center;
 }
-
+span{
+	padding:30px;
+}
 div.sub{
-    padding:5px;
+    padding:20px;
     display:block;
 }
+input[type=submit] {
+	padding-right:30px;
+	padding-left:30px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
