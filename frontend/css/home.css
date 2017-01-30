@@ -28,7 +28,7 @@ li{
   font-weight: 400;
 }
 .svg-icon {
-  width: 15%;
+  width: 30%;
   position: relative;
   top: 15px;
 }
@@ -42,4 +42,28 @@ li{
 }
 a {
   text-decoration: none;
+}
+
+.home-wrap {
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-around;
+}
+.home-wrap .option {
+  width:30%;
+  text-align: center;
+}
+.home-wrap .option p {
+  margin-top: 30px;
+}
+.home-wrap .option p a {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  transition: all 0.1s ease;
+}
+
+.home-wrap .option p a:hover {
+   letter-spacing: 1px;
+   text-transform: uppercase;
 }
