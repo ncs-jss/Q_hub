@@ -1,1 +1,11 @@
 @import url("base.css");
+
+.ques-wrapper .item {
+  /*width: 50%;
+  float: left;*/
+  text-align: left;
+}
+
+.ques-wrapper .item span {
+  font-weight: bold;
+}

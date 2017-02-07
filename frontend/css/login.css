@@ -1,6 +1,11 @@
+body {
+  /*background-image: url('assets/bg.png');*/
+  background-image: url(../assets/bg1.png);
+background-repeat: repeat;
+background-size: contain;
+}
 
 .login-form {
-  margin-top:8%;
 }
 .login-form form{
   text-align: center;
@@ -19,4 +24,11 @@ input[type=text], input[type=password] {
 div.sub{
     padding:5px;
     display:block;
+}
+
+.process {
+  margin:0;
+  background-image: url('../assets/bg1.png');
+  background-repeat: repeat;
+  background-size: contain;
 }
