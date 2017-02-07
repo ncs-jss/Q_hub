@@ -19,6 +19,9 @@
   margin-left: 13%;
 
 }
+li{
+  display: inline-block;
+}
 .icon li a {
   margin-left: 2%;
   font-size: 16px !important;
