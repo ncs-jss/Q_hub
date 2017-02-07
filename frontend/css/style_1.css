@@ -1,10 +1,15 @@
-h3{
+.proc{
+    margin:80px auto;
+    }
+
+    h3{
     text-align:center;
     color:grey;
     margin: 0 auto;
 }
+
 .form {
-    margin: 0 auto;
+    margin: 60px auto;
     display:block;
     text-align: center;
 }
@@ -42,5 +47,7 @@ select {
     background: #d4d0d0;
     padding: 5px 10px;
 }
-
+.btn{
+    margin: 40px auto;
+}
 
