@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block title %}
+	<title>View Questions -> {{ subject.name }}</title>
+	<link rel="stylesheet" type="text/css" href="css/addNew.css">
+{% endblock %}
+{% block content %}	
+<div class="process">
+<h2>Showing All Available Questions</h2>
+{% if questions %}
+{% for question in questions %}
+<p>{{ question.question|safe|escape }}</p>
+{% endfor %}
+{% endif %}
+</div>
+{% endblock %}
+
